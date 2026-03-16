@@ -1,0 +1,17 @@
+CPU_Usage,Memory_Usage,Disk_IO,Network_Latency,Recommended_Action
+Low,Low,Low,Low,System operating normally - no action required
+Low,Low,Low,High,Restart router to resolve possible network congestion
+Low,Low,High,Low,Run disk cleanup to remove temporary files and check for memory leaks in running applications
+Low,Low,High,High,Check for background downloads causing disk and network load and reboot system if issues persist
+Low,High,Low,Low,Close unused applications to free RAM; reduce graphics settings in active applications
+Low,High,Low,High,Disable browser extensions consuming memory and bandwidth and close high-memory GPU-intensive programs
+Low,High,High,Low,Check for memory leaks in running applications and verify GPU cooling and clean fans
+Low,High,High,High,Reboot system to reset memory and disk processes and perform full system malware scan
+High,Low,Low,Low,Identify CPU-intensive background processes via Task Manager
+High,Low,Low,High,Check for Windows updates consuming CPU and bandwidth
+High,Low,High,Low,Upgrade system RAM to handle workload and disable unnecessary startup applications
+High,Low,High,High,Flush DNS cache to resolve latency under load and scan disk for errors using CHKDSK
+High,High,Low,Low,Ensure power supply unit can handle CPU load and close rendering or encoding software not in use
+High,High,Low,High,Switch to wired connection for stable high-performance tasks and pause cloud synchronization services temporarily
+High,High,High,Low,Consider hardware upgrade for sustained multitasking; defragment hard drive to improve disk performance
+High,High,High,High,Backup important data and consider professional servicing
