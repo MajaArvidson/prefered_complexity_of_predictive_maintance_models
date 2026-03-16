@@ -56,4 +56,4 @@ def generate_logs(n_rows, csv_file="system_states.csv", output_file="telemetry_d
             f.write(json.dumps(log_entry) + "\n")
 
 if __name__ == "__main__":
-    generate_logs(100)
+    generate_logs(10000)
